@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="navbar-logo">
+                <a href="../index.html"><img src="../img/logo.png"></a>
+            </div>
+
+            <label for="nav-check" class="navbar-checkbox"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="nav-check">
+
+            <ul class="navbar">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="plataformas.html">Pataformas</a>
+                </li>
+                <li>
+                    <a href="noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+                <li>
+                    <a href="register.html">Register</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="formulario">
+        <form class="row g-4 needs-validation" action="#" method="get" novalidate>
+
+            <div class="col-12 mb-3">
+                <h1>Register</h1>
+            </div>
+
+            <div class="col-12 mb-3">
+                <div class="form-floating  ">
+                    <input id="uname" class="form-control" name="uname" type="text" placeholder="Username" required>
+                    <label for="uname">Enter Username</label>
+                    <div class="invalid-feedback">
+                        Please enter a username
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-xl-6 mb-3">
+                <div class="form-floating  ">
+                    <input id="fname" class="form-control" name="uname" type="text" placeholder="Username" required>
+                    <label for="fname">First Name</label>
+                    <div class="invalid-feedback">
+                        Please enter a username
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-6 mb-3">
+                <div class="form-floating  ">
+                    <input id="lname" class="form-control" name="uname" type="text" placeholder="Username" required>
+                    <label for="lname">Last Name</label>
+                    <div class="invalid-feedback">
+                        Please enter a username
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 mb-3">
+                <div class="form-floating  ">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email address</label>
+                    <div class="invalid-feedback">
+                        Please enter a valid email
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-6 mb-3">
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Password</label>
+                    <div class="invalid-feedback">
+                        Please enter a password
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-6 mb-3">
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Repeate Password</label>
+                    <div class="invalid-feedback">
+                        Please repeate  password
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="col-12 ">
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                    <label class="form-check-label" for="flexCheckDefault">
+                        <i>HE LEÍDO Y ACEPTO LOS <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                                target="_blank">TERMINOS Y
+                                CONDICIONES</a></i>
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-grid">
+                <input class="btn btn-primary" type="submit" value="Register">
+            </div>
+            <div class="sign_in">
+                <p>¿Ya tienes una cuenta? <a href="login.html">Sign in</a></p>
+            </div>
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer__redes">
+                <a href="" class="redes__icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <!--<p>Facebook</p>-->
+                </a>
+
+                <a href="" class="redes__icon redes__icon--instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <!--<p>Instagram</p>-->
+                </a>
+
+                <a href="" class="redes__icon redes__icon--twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    <!--<p>Twitter</p>-->
+                </a>
+
+                <a href="" class="redes__icon redes__icon--github">
+                    <i class="fa-brands fa-github"></i>
+                    <!--<p>Github</p>-->
+                </a>
+
+            </div>
+        </div>
+
+        <small>©2023 Marlonn Sandoval</small>
+
+    </footer>
+
+    <script src="../js/scrips.js"></script>
+</body>
+
+</html>
