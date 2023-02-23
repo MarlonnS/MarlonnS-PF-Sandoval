@@ -1,0 +1,10 @@
+@mixin flex-column($flex-direction, $justify-content) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+  }
+
+@mixin img($height){
+    width: 100%;
+    height: $height;
+}

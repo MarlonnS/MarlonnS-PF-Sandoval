@@ -1,0 +1,108 @@
+@function toRem($size) {
+    $remSize: $size / $fs-default;
+
+    @return $remSize * 1rem;
+}
+
+@media only screen and (max-width: 815px) {
+
+    .navbar {
+        @include flex-column(column, column);
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(31, 92, 85, 0.96);
+        transform: translateY(-100%);
+        transition: transform 0.3s;
+
+        li {
+            padding: 15px 0;
+        }
+    }
+
+    .navbar-checkbox {
+        display: block;
+    }
+
+    #nav-check:checked~.navbar {
+        transform: translateY(33%);
+    }
+
+    .marco {
+        h2 {
+            padding: 0 ($padding-marco/2);
+            font-size: $fs-title-s;
+        }
+    }
+
+    .games {
+        h2 {
+            font-size: $fs-title-sm;
+            padding: 10px;
+        }
+    }
+
+    .game {
+        p {
+            font-size: $fs-text-s;
+        }
+    }
+
+    .container__plataformas {
+        @include flex-column(column, flex-start);
+    }
+
+    .footer {
+        small {
+            text-align: center;
+        }
+    }
+
+    .footer__redes {
+        width: 45%;
+    }
+
+    .redes__icon {
+        i {
+            font-size: toRem(32);
+        }
+    }
+}
+
+@media (max-width: 534px) {
+
+    .marco {
+        h2 {
+            padding: 0 ($padding-marco/4);
+            font-size: $fs-title-xs;
+        }
+    }
+
+    .plataforma__container {
+        padding: 40px 20px;
+    }
+
+    .container__plataformas {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .plataformas__cont {
+        padding: 0 10px;
+
+        h2 {
+            font-size: $fs-title-s;
+        }
+
+        p {
+            font-size: $fs-text-s;
+        }
+    }
+
+    .redes__icon {
+        i {
+            font-size: toRem(20);
+        }
+    }
+}

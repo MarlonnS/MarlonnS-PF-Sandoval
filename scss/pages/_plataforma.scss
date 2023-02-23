@@ -1,0 +1,50 @@
+.plataformas {
+    background-color: $background-color;
+
+    h1 {
+        text-align: center;
+        padding-top: 20px;
+        text-decoration: underline;
+    }
+}
+
+.plataforma__container {
+    @include flex-column(column, flex-start);
+    padding: 40px 70px;
+}
+
+.container__plataformas {
+    @include flex-column(row, flex-start);
+    align-items: center;
+    background-color: rgba(19, 14, 14, 0.3);
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.plataformas__cont {
+    width: 100%;
+    padding: 0 30px;
+
+    p {
+        font-size: $fs-text;
+        text-align: justify;
+    }
+
+    h2 {
+        text-decoration: overline underline;
+        color: #6c67ad;
+    }
+}
+
+.plataformas__img {
+    @include img(auto);
+
+    img {
+        @include img(auto);
+    }
+}
+
+.container__plataformas--reverse {
+    flex-direction: row-reverse;
+}

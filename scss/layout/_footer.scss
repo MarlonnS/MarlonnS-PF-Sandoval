@@ -1,0 +1,48 @@
+.footer {
+    @include flex-column(column, center);
+    background-color: rgb(24, 21, 21);
+    margin-top: auto;
+
+    small {
+        font-size: $fs-footer;
+        padding: 0 12px;
+    }
+}
+
+.footer-container {
+    @include flex-column(row, center);
+    padding: 25px;
+}
+
+.footer__redes {
+    @include flex-column(row, space-between);
+    width: 30%;
+
+    a {
+        color: $_text-default;
+        text-decoration: none;
+        text-align: center;
+        padding: auto;
+    }
+}
+
+.redes__icon {
+    transition: all 0.4s;
+    i {
+        font-size: $fs-icons;
+    }
+}
+
+$redes: (
+    facebook: rgb(45, 45, 227),
+    instagram: rgb(150, 63, 76),
+    twitter:rgb(25, 148, 219),
+    github: rgb(145, 144, 144)
+);
+
+@each $red, $color in $redes {
+    .redes__icon--#{$red}:hover {
+        color: $color;
+        transform: scale(1.20)
+    }
+}

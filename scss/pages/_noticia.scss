@@ -1,0 +1,38 @@
+.noticias {
+    background-color: $background-color;
+
+    h1 {
+        text-align: center;
+        padding: 35px 0;
+        text-decoration-line: overline underline;
+    }
+}
+
+.contenedor-noticias {
+    padding: 30px;
+}
+
+.noticia {
+    @include flex-column(column, flex-start);
+    padding: 20px;
+    border: 5px solid #6060602b;
+    background-color: $background-grid-color;
+    height: 100%;
+    border-radius: 30px;
+
+    h2 {
+        font-size: $fs-title-s;
+        padding: 10px 0;
+
+        a {
+            &:hover {
+                color: rgb(168, 168, 168);
+            }
+        }
+    }
+
+    p {
+        font-size: $fs-text;
+        text-align: justify;
+    }
+}
