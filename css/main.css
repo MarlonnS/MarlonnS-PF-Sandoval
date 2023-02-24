@@ -8588,7 +8588,7 @@ body {
   justify-content: flex-start;
   color: white;
   font-family: "Audiowide", sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../img/fondo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../../img/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -8646,7 +8646,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../../img/fondo2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../../img/marco.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -8811,7 +8811,7 @@ body {
     display: block; }
   #nav-check:checked ~ .navbar {
     transform: translateY(33%); }
-  .marco h2, .marco .h2 {
+  .marco h1, .marco .h1 {
     padding: 0 100px;
     font-size: 1.25rem; }
   .games h2, .games .h2 {
@@ -8831,7 +8831,7 @@ body {
     font-size: 2rem; } }
 
 @media (max-width: 534px) {
-  .marco h2, .marco .h2 {
+  .marco h1, .marco .h1 {
     padding: 0 50px;
     font-size: 1rem; }
   .plataforma__container {

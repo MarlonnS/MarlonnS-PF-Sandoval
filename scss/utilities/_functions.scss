@@ -30,7 +30,7 @@
     }
 
     .marco {
-        h2 {
+        h1 {
             padding: 0 ($padding-marco/2);
             font-size: $fs-title-s;
         }
@@ -73,7 +73,7 @@
 @media (max-width: 534px) {
 
     .marco {
-        h2 {
+        h1 {
             padding: 0 ($padding-marco/4);
             font-size: $fs-title-xs;
         }
