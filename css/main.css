@@ -8588,7 +8588,7 @@ body {
   justify-content: flex-start;
   color: white;
   font-family: "Audiowide", sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../../img/fondo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../img/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -8646,7 +8646,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../../img/marco.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../img/marco.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
